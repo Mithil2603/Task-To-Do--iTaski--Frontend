@@ -12,7 +12,7 @@ export default function Navbar({ toggleSidebar }) {
   });
 
   return (
-    <div className="navbar w-full h-15 sticky top-0 shadow-lg z-30 flex items-center justify-between px-15 box-border gap-3">
+    <div className="navbar w-full h-15 shadow-lg z-30 flex items-center justify-between px-15 box-border gap-3">
       <div className="flex items-center gap-3">
         <button
           onClick={toggleSidebar}
@@ -23,7 +23,7 @@ export default function Navbar({ toggleSidebar }) {
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-layout-sidebar-inset"
+            className="bi bi-layout-sidebar-inset"
             viewBox="0 0 16 16"
           >
             <path d="M14 2a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1zM2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2z" />
@@ -76,7 +76,7 @@ export default function Navbar({ toggleSidebar }) {
             width="16"
             height="16"
             fill="white"
-            class="bi bi-calendar-week"
+            className="bi bi-calendar-week"
             viewBox="0 0 16 16"
           >
             <path d="M11 6.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm-5 3a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5zm3 0a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5z" />

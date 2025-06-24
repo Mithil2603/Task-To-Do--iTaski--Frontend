@@ -3,14 +3,18 @@
 
 :root {
   /* --primary-color: #ff4545; */
-  --primary-color: #3B82F6;
-  --secondary-color: #10B981;
+  --primary-color: #3b82f6;
+  --secondary-color: #10b981;
   --charcoal: #111827;
-  --subtext: #6B7280;
+  --subtext: #6b7280;
 }
 
 .sub-color {
   color: var(--charcoal);
+}
+
+.sec-color {
+  background-color: var(--secondary-color);
 }
 
 body {
@@ -30,6 +34,9 @@ body {
 
 .navbar {
   background-color: whitesmoke;
+  position: sticky;
+  top: 0;
+  z-index: 100;
 }
 
 .brand {
@@ -46,7 +53,7 @@ body {
 }
 
 .search-bar {
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   overflow: hidden;
   width: 50%;
 }
@@ -71,6 +78,10 @@ button {
   .hideOnMobile {
     display: none;
   }
+
+  .wraponshrink {
+    flex-wrap: wrap;
+  }
 }
 
 @media (min-width: 715px) {
@@ -94,4 +105,9 @@ button {
 
 .top--10 {
   top: -10;
+}
+
+.h-custom {
+  height: 83.5vh;
+  top: 7.5rem;
 }
