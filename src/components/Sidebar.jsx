@@ -14,8 +14,8 @@ export default function Sidebar({ isOpen, toggleSidebar }) {
 
       <div
         className={`
-          bg-[#FF6B6B] text-white p-4 rounded-2xl
-          h-max top-20 md:top-15 md:min-h-full fixed md:relative z-20 w-64 transition-transform duration-300 
+          text-white p-4 rounded-2xl
+          top-20 md:top-15 md:min-h-full fixed md:relative z-20 w-64 transition-transform duration-300 sidebar
           ${isOpen ? "translate-x-0 mt-7 w-64 shadow-xl drop-shadow" : "-translate-x-full"}
           md:translate-x-0 
         `}

@@ -32,8 +32,8 @@ export default function Navbar({ toggleSidebar }) {
         </button>
 
         <h1 className="brand text-2xl">
-          <span className="primary-color">i</span>
-          <span>Taski</span>
+          <span className="primary-color">Task</span>
+          <span className="sub-color">ly</span>
         </h1>
       </div>
 
